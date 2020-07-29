@@ -27,7 +27,9 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
 import timber.log.Timber
-
+const val KEY_REVENUE = "revenue_key"
+const val KEY_DESSERT_SOLD = "dessert_sold_key"
+const val KEY_TIMER_SECONDS = "timer_seconds_key"
 class MainActivity : AppCompatActivity() {
 
     private var revenue = 0
@@ -66,9 +68,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
-        dessertTimer = DessertTimer(this.lifecycle)
 
+        dessertTimer = DessertTimer(this.lifecycle)
+        if (savedInstanceState != null) {
+            revenue = savedInstanceState.getInt(KEY_REVENUE, 0)
+            dessertsSold = savedInstanceState.getInt(KEY_DESSERT_SOLD, 0)
+            dessertTimer.secondsCount =
+                    savedInstanceState.getInt(KEY_TIMER_SECONDS, 0)
+            showCurrentDessert()
+        }
         Timber.i("onCreate called")
 
         // Use Data Binding to get reference to the views
@@ -90,6 +98,13 @@ class MainActivity : AppCompatActivity() {
     /**
      * Updates the score when the dessert is clicked. Possibly shows a new dessert.
      */
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        Timber.i("onSaveInstanceState Called")
+        outState.putInt(KEY_REVENUE, revenue)
+        outState.putInt(KEY_DESSERT_SOLD, dessertsSold)
+        outState.putInt(KEY_TIMER_SECONDS, dessertTimer.secondsCount)
+    }
     private fun onDessertClicked() {
 
         // Update the score
@@ -106,6 +121,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Determine which dessert to show.
      */
+
     private fun showCurrentDessert() {
         var newDessert = allDesserts[0]
         for (dessert in allDesserts) {
@@ -129,6 +145,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Menu methods
      */
+
     private fun onShare() {
         val shareIntent = ShareCompat.IntentBuilder.from(this)
                 .setText(getString(R.string.share_text, dessertsSold, revenue))
@@ -141,6 +158,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.LENGTH_LONG).show()
         }
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
@@ -186,3 +204,5 @@ class MainActivity : AppCompatActivity() {
         Timber.i("onRestart Called")
     }
 }
+
+
