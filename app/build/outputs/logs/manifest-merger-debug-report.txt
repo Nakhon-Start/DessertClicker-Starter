@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\78de48537f47c47c2e3be0ec46cf1045\databinding-adapters-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\3f5423e23ce793b48c43afd78a3916f9\databinding-runtime-4.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\c428b1ce8e4e412500024f5745831c0a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7cc7a6f65337275695abc5f59f847083\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7ec1197eff5064f927c1d0ae841c5523\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\b489210023b4e591650fd25144ad3624\jetified-viewbinding-4.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\a9879664f9527f7d627f4d847bcac3ea\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\0b89a6c4cfe410a22d9f831cb487a6d4\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -35,27 +36,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\0a9c6c10530aac001e1e59b7495bfbcb\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\89eca425e2e8e8ecebb64cc0ffd67a5c\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\6ba1de9be899b775fb2e622bcf9ee329\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
-INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
+INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 	package
 		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:18:5-49
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-36:12
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:1-38:12
 		INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:17:11-69
 application
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:20:5-34:19
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:20:5-36:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\c428b1ce8e4e412500024f5745831c0a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\c428b1ce8e4e412500024f5745831c0a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7ec1197eff5064f927c1d0ae841c5523\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7ec1197eff5064f927c1d0ae841c5523\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
 MERGED from [androidx.core:core:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\5159d2a06bf6c191a6f17fd338daf360\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\5159d2a06bf6c191a6f17fd338daf360\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\02333c0c6d411d18907703216770242b\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
@@ -73,21 +76,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\na
 	android:allowBackup
 		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:26:9-43
 activity#com.example.android.dessertclicker.MainActivity
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:9-33:20
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:name
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:27:19-81
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:19-81
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\nakho\AndroidStudioProjects\android-kotlin-fundamentals-starter-apps-master\DessertClicker-Starter\app\src\main\AndroidManifest.xml
@@ -100,6 +105,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\n
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha2] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\c428b1ce8e4e412500024f5745831c0a\constraintlayout-2.0.0-alpha2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7cc7a6f65337275695abc5f59f847083\appcompat-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7cc7a6f65337275695abc5f59f847083\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7ec1197eff5064f927c1d0ae841c5523\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\7ec1197eff5064f927c1d0ae841c5523\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\b489210023b4e591650fd25144ad3624\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\b489210023b4e591650fd25144ad3624\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\nakho\.gradle\caches\transforms-2\files-2.1\a9879664f9527f7d627f4d847bcac3ea\fragment-1.0.0\AndroidManifest.xml:20:5-44
