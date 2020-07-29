@@ -66,10 +66,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        dessertTimer = DessertTimer(this.lifecycle)
 
-        dessertTimer = DessertTimer()
-
-        Log.i("MainActivity", "onCreate Called")
+        Timber.i("onCreate called")
 
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
